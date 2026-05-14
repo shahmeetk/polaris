@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full antialiased scroll-smooth">
-      <body className={`${inter.variable} ${playfair.variable} font-sans min-h-full flex flex-col bg-slate-50 text-slate-900`}>
+    <html lang="en" className="h-full antialiased scroll-smooth" suppressHydrationWarning>
+      <body className={`${inter.variable} ${playfair.variable} font-sans min-h-full flex flex-col bg-slate-50 text-slate-900`} suppressHydrationWarning>
         <Navbar />
         <main className="flex-1 flex flex-col">
           {children}
