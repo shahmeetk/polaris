@@ -12,17 +12,20 @@ export default function SolutionsPage() {
   return (
     <div className="flex flex-col w-full bg-white min-h-screen">
       {/* Page Header */}
-      <section className="bg-[#0B132B] text-white py-24 md:py-32 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-40 pointer-events-none">
+      <section className="relative py-24 md:py-32 flex items-center bg-slate-900 text-white overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
           <Image 
             src="/global_wealth_map.png" 
             alt="Global Wealth Network" 
             fill 
-            className="object-cover object-center mix-blend-screen"
+            className="object-cover object-center opacity-50"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0B132B] via-[#0B132B]/60 to-transparent"></div>
+          {/* Gradient Overlay for Text Readability */}
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-slate-900/80"></div>
         </div>
+        
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-heading font-medium tracking-tight mb-6 drop-shadow-md">Institutional Solutions</h1>

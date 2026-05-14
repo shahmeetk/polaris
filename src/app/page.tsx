@@ -7,17 +7,19 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full bg-slate-50">
       {/* Hero Section */}
-      <section className="relative min-h-[85vh] flex items-center bg-[#0B132B] text-white overflow-hidden">
-        {/* Abstract Architectural/Financial Background */}
-        <div className="absolute inset-0 opacity-40 pointer-events-none">
+      <section className="relative min-h-[90vh] flex items-center justify-center bg-slate-900 text-white overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
           <Image 
             src="/trading_hero_bg.png" 
             alt="Institutional Trading Background" 
             fill 
-            className="object-cover object-center mix-blend-screen"
+            className="object-cover object-center opacity-60"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0B132B] via-[#0B132B]/80 to-transparent"></div>
+          {/* Gradient Overlay for Text Readability */}
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/80 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
         </div>
 
         <div className="container mx-auto px-4 lg:px-8 relative z-10 py-24">
