@@ -14,7 +14,7 @@ export default function InvestmentApproachPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/algorithmic_trading_node.png" 
+            src="/algorithmic_trading_node.jpg" 
             alt="Algorithmic Trading Network" 
             fill 
             className="object-cover object-center opacity-60"

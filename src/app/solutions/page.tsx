@@ -16,7 +16,7 @@ export default function SolutionsPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/global_wealth_map.png" 
+            src="/global_wealth_map.jpg" 
             alt="Global Wealth Network" 
             fill 
             className="object-cover object-center opacity-50"

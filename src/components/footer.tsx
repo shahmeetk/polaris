@@ -10,9 +10,9 @@ export function Footer() {
             <Image 
               src="/polaris_logo.jpeg" 
               alt="Polaris Logo" 
-              width={160} 
-              height={45} 
-              className="h-10 w-auto object-contain mix-blend-multiply"
+              width={260} 
+              height={80} 
+              className="h-16 w-auto object-contain mix-blend-multiply"
             />
           </Link>
           <p className="text-sm text-slate-400 leading-relaxed pr-4">

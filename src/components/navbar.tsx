@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button";
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/90 backdrop-blur-md supports-[backdrop-filter]:bg-white/60">
-      <div className="container mx-auto px-4 lg:px-8 h-24 flex items-center justify-between">
+      <div className="container mx-auto px-4 lg:px-8 h-28 flex items-center justify-between">
         <Link href="/" className="flex items-center space-x-3">
           <Image 
             src="/polaris_logo.jpeg" 
             alt="Polaris Logo" 
-            width={180} 
-            height={50} 
-            className="h-12 w-auto object-contain"
+            width={260} 
+            height={80} 
+            className="h-16 w-auto object-contain"
             priority
           />
         </Link>

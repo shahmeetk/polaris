@@ -11,7 +11,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/trading_hero_bg.png" 
+            src="/trading_hero_bg.jpg" 
             alt="Institutional Trading Background" 
             fill 
             className="object-cover object-center opacity-60"
