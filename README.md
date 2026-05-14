@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Polaris - Institutional Variable Capital Company Portal
 
-## Getting Started
+Polaris is a sophisticated, production-grade web platform representing a Mauritius-based Variable Capital Company (VCC). Designed with a premium, institutional trading aesthetic, the platform caters to high-net-worth individuals, family offices, and institutional distributors. 
 
-First, run the development server:
+The website avoids retail-trading tropes in favor of a mathematically disciplined, global wealth architecture aesthetic, emphasizing transparency, regulatory compliance, and quantitative rigor.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+* **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+* **UI Components:** [shadcn/ui](https://ui.shadcn.com/) (Radix UI)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Typography:** Inter (Sans-serif) & Playfair Display (Serif)
+* **Language:** TypeScript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Core Architecture
+The platform consists of the following primary routes, all optimized for SEO and performance:
+* `/` - The Hero landing page introducing the global capital architecture.
+* `/about` - Corporate genesis, VCC advantage, and fiduciary alignment.
+* `/solutions` - Breakdown of Investment Solutions, Fund Management, and Capital Advisory.
+* `/investment-approach` - Quantitative methodologies, risk management, and algorithmic execution.
+* `/governance` - Strict regulatory adherence, independent oversight, and AML/KYC protocols.
+* `/investor-relations` - Secure access gateway for existing clients and data room requests.
+* `/contact` - Institutional inquiry portal.
+* `/legal`, `/privacy`, `/terms` - Comprehensive compliance disclosures.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Step-by-Step Guide to Run Locally
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To run the Polaris platform on your local machine, follow these steps:
 
-## Learn More
+### Prerequisites
+* **Node.js** (v18.17 or newer)
+* **npm** or **yarn** package manager
+* **Git**
 
-To learn more about Next.js, take a look at the following resources:
+### Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository:**
+   ```bash
+   git clone git@github.com:shahmeetk/polaris.git
+   cd polaris
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Install dependencies:**
+   Using npm:
+   ```bash
+   npm install
+   ```
+   Or using yarn:
+   ```bash
+   yarn install
+   ```
 
-## Deploy on Vercel
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   *The terminal will output the local address, typically `http://localhost:3000` or `http://localhost:3005` depending on port availability.*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **View the Application:**
+   Open your browser and navigate to the provided local address to view the live development build.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Production Build
+To test the production build locally before deployment:
+
+1. **Build the application:**
+   ```bash
+   npm run build
+   ```
+
+2. **Start the production server:**
+   ```bash
+   npm run start
+   ```
+
+## Deployment
+This Next.js application is fully optimized for zero-config deployment on [Vercel](https://vercel.com). Simply link your GitHub repository to your Vercel account, and Vercel will automatically build and deploy the `master` branch.
+
+## License
+&copy; {Current_Year} Polaris Variable Capital Company. All rights reserved. Proprietary source code.
