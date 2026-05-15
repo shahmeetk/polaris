@@ -52,7 +52,7 @@ To run the Polaris platform on your local machine, follow these steps:
 
 3. **Start the development server:**
    ```bash
-   npm run dev
+
    ```
    *The terminal will output the local address, typically `http://localhost:3000` or `http://localhost:3005` depending on port availability.*
 
