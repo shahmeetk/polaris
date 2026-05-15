@@ -50,7 +50,7 @@ export default function AboutPage() {
                     Polaris was established with a singular objective: to provide institutional investors, family offices, and high-net-worth individuals with a secure, regulated, and highly efficient platform for global capital deployment.
                   </p>
                   <p className="border-l-2 border-blue-500 pl-8 py-2 italic text-slate-900">
-                    "We are not a retail brokerage. Polaris is a financial architect. We design and execute strategies characterized by rigorous risk management and quantitative discipline."
+                    &quot;We are not a retail brokerage. Polaris is a financial architect. We design and execute strategies characterized by rigorous risk management and quantitative discipline.&quot;
                   </p>
                   <p>
                     Operating as a Variable Capital Company (VCC) under the progressive regulatory framework of Mauritius, we seamlessly integrate fund management, strategic capital advisory, and bespoke investment solutions.

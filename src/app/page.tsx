@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, BarChart3, Building, Shield, ChevronRight, Activity, Globe, Cpu, Zap, PieChart, TrendingUp, Users, Database } from "lucide-react";
+import { ArrowRight, Building, Shield, ChevronRight, Activity, Globe, Cpu, Zap, PieChart, TrendingUp, Users, Database } from "lucide-react";
 import { ScrollReveal } from "@/components/scroll-reveal";
 
 export default function Home() {
@@ -51,7 +51,7 @@ export default function Home() {
             
             <ScrollReveal direction="up" delay={0.3}>
               <p className="text-xl md:text-2xl text-slate-400 max-w-2xl leading-relaxed mb-12 font-light">
-                Polaris delivers institutional-grade quantitative strategies, capital advisory, and bespoke fund architecture for the world's most sophisticated allocators.
+                Polaris delivers institutional-grade quantitative strategies, capital advisory, and bespoke fund architecture for the world&apos;s most sophisticated allocators.
               </p>
             </ScrollReveal>
             

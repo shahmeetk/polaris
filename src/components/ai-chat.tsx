@@ -4,11 +4,10 @@ import { useChat } from "@ai-sdk/react";
 import { useState, useRef, useEffect } from "react";
 import { MessageSquare, X, Send, Bot, User, Loader2, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { ScrollReveal } from "./scroll-reveal";
 
 export function AIChat() {
   const [isOpen, setIsOpen] = useState(false);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const { messages, input, handleInputChange, handleSubmit, isLoading, error } = useChat() as any;
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -72,6 +71,7 @@ export function AIChat() {
               </div>
             )}
 
+            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
             {messages.map((m: any) => (
               <div 
                 key={m.id} 

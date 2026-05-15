@@ -30,7 +30,7 @@ export default function TermsPage() {
           <ScrollReveal direction="up" delay={0.2}>
             <div className="prose prose-slate prose-lg max-w-none text-slate-500 font-light leading-relaxed">
               <p className="text-xl text-slate-600 mb-12">
-                By accessing or using the website of Polaris Variable Capital Company ("Polaris"), you agree to be bound by these Terms of Use.
+                By accessing or using the website of Polaris Variable Capital Company (&quot;Polaris&quot;), you agree to be bound by these Terms of Use.
               </p>
               
               <div className="space-y-12">

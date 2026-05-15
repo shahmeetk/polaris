@@ -30,7 +30,7 @@ export default function PrivacyPage() {
           <ScrollReveal direction="up" delay={0.2}>
             <div className="prose prose-slate prose-lg max-w-none text-slate-500 font-light leading-relaxed">
               <p className="text-xl text-slate-600 mb-12">
-                Polaris Variable Capital Company ("Polaris") is committed to protecting the privacy and security of your personal data. This policy describes how we handle your information in connection with our institutional services.
+                Polaris Variable Capital Company (&quot;Polaris&quot;) is committed to protecting the privacy and security of your personal data. This policy describes how we handle your information in connection with our institutional services.
               </p>
               
               <div className="space-y-12">

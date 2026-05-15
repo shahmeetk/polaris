@@ -1,4 +1,4 @@
-import { LineChart, Briefcase, Landmark, ChevronRight, CheckCircle2, ArrowUpRight, BarChart4, Network, ShieldCheck } from "lucide-react";
+import { Briefcase, Landmark, CheckCircle2, ArrowUpRight, BarChart4, Network, ShieldCheck } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";

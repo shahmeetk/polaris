@@ -30,7 +30,7 @@ export default function LegalPage() {
           <ScrollReveal direction="up" delay={0.2}>
             <div className="prose prose-slate prose-lg max-w-none text-slate-500 font-light leading-relaxed">
               <p className="text-xl text-slate-600 mb-10">
-                The information contained on this website is for informational purposes only and does not constitute an offer to sell, a solicitation to buy, or a recommendation for any security, investment strategy, or fund managed or advised by Polaris Variable Capital Company ("Polaris").
+                The information contained on this website is for informational purposes only and does not constitute an offer to sell, a solicitation to buy, or a recommendation for any security, investment strategy, or fund managed or advised by Polaris Variable Capital Company (&quot;Polaris&quot;).
               </p>
               
               <div className="space-y-12">
